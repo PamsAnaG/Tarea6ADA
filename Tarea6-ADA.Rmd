@@ -1,0 +1,26 @@
+---
+title: "Tarea 6 | Elementos intermedios de R"
+author: "Pamela Anaid Gutierrez Vargas"
+date: "8 de Noviembre, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Almacenamiento de Datos y su Administración
+### Maestría en Ciencias en Informática
+### IPN - UPIICSA
+
+Ejercicio que pone en práctica los conocimientos adquiridos durante el curso sobre adquisición y manejo de datos con R.
+
+El repositorio donde se encuentra el desarrollo de la tarea es el siguiente: https://github.com/PamsAnaG/Tarea6ADA.git. A continuación se ejecutará el script creado para completar el ejercicio y se mostrará el resultado del data frame creado.
+
+NOTA. La década elegida para trabajar es 1960-1969
+
+
+```{r}
+source("Tarea6-ADA.R")
+nrow(fatalities)
+```
